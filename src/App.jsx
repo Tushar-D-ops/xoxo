@@ -1,5 +1,18 @@
 import React from 'react'
 import styles from './style'
+import Billing from  './components/Billing'
+import Business from  './components/Business'
+import Button from  './components/Button'
+import Carddeal from  './components/Carddeal'
+import Clients from  './components/Clients'
+import CTA from  './components/CTA'
+import Feedback from  './components/Feedback'
+import Footer from  './components/Footer'
+import Getstarted from  './components/Getstarted'
+import Hero from  './components/Hero'
+import Navbar from  './components/Navbar'
+import Stats from  './components/Stats'
+import Testmonials from  './components/Testimonials'
 
 const App = () => {
   return (
@@ -19,7 +32,7 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           stats
           business
-          billing
+          <Billing/>
           card
           testimonials
           clients
