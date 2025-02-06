@@ -12,32 +12,32 @@ import Getstarted from  './components/Getstarted'
 import Hero from  './components/Hero'
 import Navbar from  './components/Navbar'
 import Stats from  './components/Stats'
-import Testmonials from  './components/Testimonials'
+import Testimonials from  './components/Testimonials'
 
 const App = () => {
   return (
     <div className='bg-primary w-full overflow-hidden'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
        <div className={`${styles.boxWidth}`}>
-        Navbar
+       < Navbar/>
        </div>
      </div>
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          Hero
+          <Hero/>
         </div>
       </div>
       <div className={`bg-primary ${styles.flexStart} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
-          stats
-          business
+          <Stats/>
+           {/*<Business/>
           <Billing/>
-          card
-          testimonials
-          clients
-          cta
-          footer
+          <Card/>
+          <Testimonials/>
+          <Clients/>
+          <CTA/>
+          <Footer/> */}
         </div>
       </div>
     
